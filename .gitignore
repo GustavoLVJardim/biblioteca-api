@@ -1,0 +1,25 @@
+# Binários e arquivos que o Go gera
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Pastas que o Go cria
+/bin/
+/pkg/
+/tmp/
+
+# Banco de dados (vamos usar SQLite depois)
+*.db
+*.sqlite3
+*.sqlite
+
+# Configurações de editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos temporários
+.DS_Store
+Thumbs.db
